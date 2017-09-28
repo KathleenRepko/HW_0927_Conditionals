@@ -136,10 +136,14 @@ namespace HW_0927_Conditionals
             Console.WriteLine("Please enter a fourth integer.");
             int fourthNumber = int.Parse(Console.ReadLine());
 
-           // Next step would be to find the lowest and greatest integers.
-           // Then find the difference between those two integers, 
-           // divide the difference in half, and add that to the lowest integer.
-           // I think.S
+            double totalNumber = firstNumber + secondNumber + thirdNumber + fourthNumber;
+
+            double mean = totalNumber / 4;
+
+            Console.WriteLine("The mean of these four numbers is " + mean + ".");
+
+
+           
 
 
 
